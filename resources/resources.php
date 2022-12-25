@@ -19,8 +19,8 @@ $styles = [
 		["rel"=>"stylesheet", "href"=>VENDOR_PATH."fontawesome-free/css/all.min.css"],
 		["rel"=>"stylesheet", "href"=>VENDOR_PATH."animate/animate.min.css"],
 		["rel"=>"stylesheet", "href"=>VENDOR_PATH."simple-line-icons/css/simple-line-icons.min.css"],
-		["rel"=>"stylesheet", "href"=>VENDOR_PATH."owl.carousel/assets/owl.carousel.min.css"],
-		["rel"=>"stylesheet", "href"=>VENDOR_PATH."owl.carousel/assets/owl.theme.default.min.css"],
+		//["rel"=>"stylesheet", "href"=>VENDOR_PATH."owl.carousel/assets/owl.carousel.min.css"],
+		//["rel"=>"stylesheet", "href"=>VENDOR_PATH."owl.carousel/assets/owl.theme.default.min.css"],
 		["rel"=>"stylesheet", "href"=>VENDOR_PATH."magnific-popup/magnific-popup.min.css"],
 
 		// Theme CSS
@@ -50,7 +50,12 @@ $js = [
 ];
 
 $footerJs = [
-        ["src"=>VENDOR_PATH."jquery/jquery.min.js"],
+	["src"=>VENDOR_PATH."jquery/jquery.min.js"],
+
+	["src"=>JS_PATH."theme.js"],
+    	['src'=>VENDOR_PATH.'rs-plugin/js/jquery.themepunch.tools.min.js'],
+	    ['src'=>VENDOR_PATH.'rs-plugin/js/jquery.themepunch.revolution.min.js'],
+
 		["src"=>VENDOR_PATH."jquery.appear/jquery.appear.min.js"],
 		["src"=>VENDOR_PATH."jquery.easing/jquery.easing.min.js"],
 		["src"=>VENDOR_PATH."jquery.cookie/jquery.cookie.min.js"],

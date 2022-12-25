@@ -1,1 +1,101 @@
 /* Add here all your CSS customizations */
+
+:root {
+    --primary: #92278F;
+    --primary-deep: #62115f99;
+    --secondary: #F7941D;
+    --white: rgb(253, 253, 253);
+    --danger: rgb(250, 110, 67);
+    --black: #000;
+    --charcoal: #222;
+    --grey1: #3a3b3c;
+    --grey: #666;
+    --grey3: #828282;
+    --grey4: #eceff7;
+    --grey5: #f2f2f2;
+    --green: #80c41c;
+    --primary-light: #4784d3;
+    --primary-lighter: #b4ccfa;
+    --pink: #f56680;
+    --gradient: linear-gradient(178.46deg, rgba(0, 0, 0, 0.11) 1.31%, rgba(22, 22, 22, 0.57) 97.38%), linear-gradient(106.04deg, rgba(146, 39, 143, 0.6) 0%, rgba(247, 148, 29, 0.6) 100%);
+    --gradient-small: linear-gradient(260.97deg, #92278F 2.55%, #F7941D 98.97%);
+}
+
+.call-to-action.call-to-action-default {
+    background: var(--gradient-small);
+}
+
+
+.gradient{
+    background: var(--gradient);
+}
+
+.title{
+
+}
+
+html .text-primary{
+    color: var(--primary-deep);
+}
+
+html .text-secondary {
+    color: var(--secondary);
+}
+
+a.page-link:hover{
+	cursor: pointer;
+}
+
+a.page-link.jp-current:hover{
+	cursor: none;
+	color: white;
+}
+
+body{
+	color: #444;
+	background: #fdfdfd;
+}
+
+.bg-position-center{
+	background-position: center center !important;
+}
+
+.bg-no-repeat {
+    background-repeat: no-repeat !important;
+}
+
+.col-half-section.col-half-section-right {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.col-half-section {
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    max-width: 555px;
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+.thumb-info .thumb-info-title {
+
+    font-size: 15px;
+    padding: 4px 12px 1px;
+    bottom: 10%;
+}
+
+.thumb-info .thumb-info-type {
+    margin: 0px -2px -15px 0;
+}
+
+
+.bounce-loader .bounce1, .bounce-loader .bounce2, .bounce-loader .bounce3{
+    background-color:var(--primary);
+}
+
+.header-nav {
+    font-size: 120%;
+}

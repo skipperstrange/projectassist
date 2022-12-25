@@ -1,4 +1,4 @@
-
+<?php include PARTIALS.'footer_banner.php'; ?>
 
 <?= generate_tag_group('script', $footerJs);?>
 
