@@ -11,14 +11,14 @@ include_once "vendor/autoload.php";
 
 if(MODE == 'development'){
     ini_set('display_errors',1);
-  //  error_reporting(E_ALL);
+//error_reporting('E_ALL ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED & ~E_USER_NOTICE');
+
 
 }else{
     ini_set('display_errors',0);
 }
 
 $pageTitle = '';
-
 
 if(PRETTY_URLS == true){
 

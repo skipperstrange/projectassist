@@ -1,6 +1,6 @@
 <?php
 
-define('CLIENT_NAME', '');
+define('CLIENT_NAME', 'Project Assist Globall');
 define('WEBSITE', '');
 define('SLOGAN', '');
 define('SUPPORT_EMAIL', '');

@@ -1,5 +1,59 @@
 <?php include PARTIALS.'footer_banner.php'; ?>
 
+
+<footer id="footer" class="mt-0">
+				<div class="container">
+					<!--div class="footer-ribbon">
+						<span>Get in Touch</span>
+					</div-->
+					<div class="row py-5 my-4">
+						<div class="col-md-7 col-lg-5 mb-5 mb-lg-0 pt-3">
+							<h5 class="text-3 mb-3">ABOUT US</h5>
+							<p>Project Assist is a firm which partners with private and public 
+							sector organisations to successfully deliver complex programmes. We employ dynamic.
+						</p>
+						<ul class="social-icons mt-4">
+								<?php            
+									foreach ($data['socialMediaLinks'] as $socialMediaLink) {
+
+                                    ?>
+                                    <li class="social-icons-<?= $socialMediaLink['title']?>"><a href="<?= $socialMediaLink['href'] ?>" target="_blank" title="<?= format_string($socialMediaLink['title']) ?>"><i class="<?= $socialMediaLink['icon']?>"></i></a></li>
+                                    <?php
+                                    }
+                                    ?>
+						</ul>
+						</div>
+						<div class="col-md-4 col-lg-4 mb-5 mb-lg-0 pt-3">
+						<h5 class="text-3 mb-3 text-uppercase">Quick Links</h5>
+							<ul class="list list-icons list-icons-sm">
+								<?php 
+								foreach($navLinks as $label => $link): 
+									if(trim($navLinks[$label]['href']) != ''): ?>
+								<li><i class="fas fa-angle-right"></i><a href="<?=$navLinks[$label]['href']?>" target="<?=$navLinks[$label]['target']?>" class="link-hover-style-1 ml-1"> <?=ucfirst(format_string($label)) ?></a></li>
+								<?php 
+									endif;
+								endforeach; ?>
+							</ul>
+						</div>
+						<div class="col-lg-3 pt-3">
+							<h5 class="text-3 mb-3 pb-1"></h5>
+							
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container py-2">
+						<div class="row py-4">
+
+							<div class="col-sm-12 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
+								<p><?=CLIENT_NAME?> © Copyright 2020. All Rights Reserved.</p>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</footer>
+
 <?= generate_tag_group('script', $footerJs);?>
 
 		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.

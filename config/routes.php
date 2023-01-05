@@ -4,11 +4,23 @@ define("ROUTES", [
 //# controller:aztrasC view:index
 ['url'=>'@^home$@', 'name'=>'', 'controller'=>'index', 'view'=>'index'],
 
-//# controller:aztrasC view:index
+//# controller:about view:about
 ['url'=>'@^home\/$@', 'name'=>'', 'controller'=>'index', 'view'=>'index'],
 
+
+['url'=>'@^about$@', 'name'=>'about', 'controller'=>'about', 'view'=>'about'],
+
+//# controller:about view:about
+['url'=>'@^about\/$@', 'name'=>'about', 'controller'=>'about', 'view'=>'about'],
+
+
+['url'=>'@^contact$@', 'name'=>'contact', 'controller'=>'contact', 'view'=>'contact'],
+
+//# controller:about view:about
+['url'=>'@^contact\/$@', 'name'=>'contact', 'controller'=>'contact', 'view'=>'contact'],
+
 //# controller:aztrasC view:index
-['url'=>'@^$@', 'name'=>'', 'controller'=>'index', 'view'=>'index'],
+['url'=>'@^$@', 'nacome'=>'', 'controller'=>'index', 'view'=>'index'],
 
 //#Passing parameters through route - (?P<parameter-name>\w)
 ['url'=>'@^product$@', 'name'=>'', 'controller'=>'product', 'view'=>'product'],
