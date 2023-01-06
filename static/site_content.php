@@ -2,6 +2,35 @@
 
 $data['upraise_note'] = "Our capabilities and services complement all phases of the project delivery lifecycle, from the initial planning phase through to the delivery of leading business practices and technology functions.";
 $data['brief_history'] = "Since 1998, we have worked in partnership with a number of global and niche organisations to achieve sustainable and measurable business benefits. Our founding values are rigidly deployed on every assignment, as experts and industry leaders in planning, we provide practical project and programme management solutions for our clients, increasing agility, performance and driving efficiencies throughout organisations. We ensure;";
+$data['mission'] = 'Since 1998, we have worked in partnership with a number of global and niche organisations to achieve sustainable and measurable business benefits. Our founding values are rigidly deployed on every assignment, as experts and industry leaders in planning, we provide practical project and programme management solutions for our clients, increasing agility, performance and driving efficiencies throughout organisations.';
+$data['about_traits'] = [
+    [
+        'title'=>'Hands on',
+        'icon'=>IMAGES_URL.'stop.png',
+        'description'=>'We don’t just offer advice from the sidelines, we work with you to achieve your objectives
+        ',
+    ],
+    [
+        'title'=>'Result Focused',
+        'icon'=>IMAGES_URL.'notebook.png',
+        'description'=>'At Project Assist, successful delivery is a requirement. We are confident to be judged on our delivery record.'
+    ],
+    [
+        'title'=>'Result Focused',
+        'icon'=>IMAGES_URL.'shield.png',
+        'description'=>'We ensure exacting standards from all our staff; high quality lies at the heart of our delivery excellence'
+    ],
+    [
+        'title'=>'Quality assured',
+        'icon'=>IMAGES_URL.'value.png',
+        'description'=>'We set-up programmes for success whilst building skills within your organisation'
+    ],
+    [
+        'title'=>'Longterm deployment',
+        'icon'=>IMAGES_URL.'startup.png',
+        'description'=>'We go the last mile to ensure a robust, cost-effective and future-proofed solution.'
+    ]
+];
 
 $data['service_captions_mini'] = [
     [
