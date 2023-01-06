@@ -1,4 +1,4 @@
-<?php include_once STATIC_DATA.'services.php'; ?>
+<?php include_once STATIC_DATA.'site_content.php'; ?>
 <?php  $traits = $data['traits']; ?>
 <?php foreach ($traits as $index => $value): 
     $bg_position = ((($index+2)%2)+1);

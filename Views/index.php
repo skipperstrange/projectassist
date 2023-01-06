@@ -1,6 +1,6 @@
 <?= generate_tag_group('css',$revolutionSliderCss); ?>
 <?php include PARTIALS.'home-banner.php'; ?>
-<?php include_once STATIC_DATA.'services.php'; ?>
+<?php include_once STATIC_DATA.'site_content.php'; ?>
 <?php $service_captions = $data['service_captions_mini']; ?>
 
 <section class="section position-relative border-0 m-0 p-0">
@@ -11,7 +11,7 @@
             </div>
             <div class="col-sm-12 mb-7 text-color-dark text-center  appear-animation animated  fadeInUpShorter appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="650" style="animation-delay: 650ms;">
                 <p class="text-4 mb-5">
-                Our capabilities and services complement all phases of the project delivery lifecycle, from the initial planning phase through to the delivery of leading business practices and technology functions.
+                    <?=$data['upraise_note']?>
                 </p>
             </div>
         </div>
@@ -33,15 +33,15 @@
     </div>
 </section>
 
-<section class="mb-4 bg-transparent container pt-4">
+<section class="mb-4 bg-transparent container py-4">
        <div class="container text-center">
-       <div class="appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="950" style="animation-delay: 950ms;">
-                <h2 class="pt-5 text-color-dark font-weight-medium "><strong>Why Project Assist Global</strong></h2>
+        <div class="col-lg-12 mb-4 appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="950" style="animation-delay: 950ms;">
+            <h2 class="pt-5 text-color-dark font-weight-medium "><strong>Why Project Assist Global</strong></h2>
        </div>
        <div class="appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="950" style="animation-delay: 950ms;">
                 <img src="<?=IMAGES_URL.'quote.png'?>" alt="Quote" srcset="<?=IMAGES_URL.'quote.png'?>">
        </div>
-       <div class="appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="950" style="animation-delay: 950ms;">
+       <div class="col-lg-12 mb-4 appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="950" style="animation-delay: 950ms;">
                 <p class="text-4">We are experts and industry leaders in planning and scheduling of small to large scale multi million dollar programmes. With a proven track record of success we provide practical project and programme management solutions for our clients, increasing agility, performance and driving efficiencies throughout organisations.</p>
        </div>
       </div> 

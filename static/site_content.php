@@ -1,5 +1,8 @@
 <?php
 
+$data['upraise_note'] = "Our capabilities and services complement all phases of the project delivery lifecycle, from the initial planning phase through to the delivery of leading business practices and technology functions.";
+$data['brief_history'] = "Since 1998, we have worked in partnership with a number of global and niche organisations to achieve sustainable and measurable business benefits. Our founding values are rigidly deployed on every assignment, as experts and industry leaders in planning, we provide practical project and programme management solutions for our clients, increasing agility, performance and driving efficiencies throughout organisations. We ensure;";
+
 $data['service_captions_mini'] = [
     [
         'title'=>'Our Business',
