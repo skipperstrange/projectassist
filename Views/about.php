@@ -20,6 +20,28 @@ $captions = $data['about_traits'];
     </div>
 </section>
 
+<div class="row">
+    <div class="col-lg-6 col-md-6 p-0 order-lg-2">
+        <section class="section m-0 border-0 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" style="padding: 0px; background-image: url('<?=IMAGES_URL?>business_change.jpg'); height: 100%; background-repeat: no-repeat; background-size: cover; animation-delay: 100ms;">
+          
+        </section>
+    </div>
+
+    <div class="col-lg-6 col-md-6 p-0 order-lg-1">
+        <section class="section  m-0 border-0">
+            <div class="row m-0 mt-lg-5 pt-lg-0">
+                <div class="col-half-section mb-0 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400" style="animation-delay: 400ms;">
+                    <h3 class="text-5 text-primary"><strong>Simulate business change</strong></h3>
+                    <p>
+                    In a rapidly evolving, highly competitive global market your business must be able to respond to change quickly and effectively. Flexibility and agility are no longer differentiators, to remain at the top of your field your business must take ownership to lead the change – Project Assist has the skills, expertise and experience to help.
+
+                    </p>
+                    </div>
+            </div>
+        </section>
+    </div>
+</div>
+
 <section class="position-relative border-0 m-0 p-0">
     <div class="container custom-container-background z-index-1 py-5 ">
         <div class="row position-relative z-index-1 pt-5-5">
