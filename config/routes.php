@@ -23,17 +23,17 @@ define("ROUTES", [
 ['url'=>'@^$@', 'nacome'=>'', 'controller'=>'index', 'view'=>'index'],
 
 //#Passing parameters through route - (?P<parameter-name>\w)
-['url'=>'@^product$@', 'name'=>'', 'controller'=>'product', 'view'=>'product'],
-['url'=>'@^product/$@', 'name'=>'', 'controller'=>'product', 'view'=>'product'],
+['url'=>'@^service$@', 'name'=>'', 'controller'=>'services', 'view'=>'services'],
+['url'=>'@^service/$@', 'name'=>'', 'controller'=>'services', 'view'=>'services'],
 
-['url'=>'@^product/(?P<id>\d+)/$@', 'name'=>'', 'controller'=>'product', 'view'=>'product'],
-['url'=>'@^product/(?P<id>\d+)$@', 'name'=>'', 'controller'=>'product', 'view'=>'product'],
+['url'=>'@^service/(?P<id>\d+)/$@', 'name'=>'', 'controller'=>'service', 'view'=>'service'],
+['url'=>'@^service/(?P<id>\d+)$@', 'name'=>'', 'controller'=>'service', 'view'=>'product'],
 //Strict for digits
 //['url'=>'@^product/(?P<id>\w+)/$@', 'name'=>'', 'controller'=>'admin', 'view'=>'admin/index'],
 
 //Special route for extracting static data from static folder.
 
-//Post request with a reference to the data file and query with reference the data variable being accessed json object to be retuen
+//Post request with a reference to the data file and query with reference the data variable being accessed json object to be return
 ['url'=>'@^api/$@', 'name'=>'', 'controller'=>'api', 'view'=>''],
 ['url'=>'@^api$@', 'name'=>'', 'controller'=>'api', 'view'=>''],
 #end of routes

@@ -1,7 +1,6 @@
 <?= generate_tag_group('css',$revolutionSliderCss); ?>
 <?php include PARTIALS.'home-banner.php'; ?>
-<?php include_once STATIC_DATA.'site_content.php'; ?>
-<?php $captions = $data['service_captions_mini']; ?>
+
 
 <section class="section position-relative border-0 m-0 p-0">
     <div class="container custom-container-background z-index-1 py-5 ">
