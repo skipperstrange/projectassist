@@ -10,7 +10,7 @@ include_once STATIC_DATA.'nav.php';
                         <div class="header-logo header-logo-sticky-change" style="width: 82px; height: 40px;">
                             <a href="<?= WEB_URL ?>">
                             <?= create_tag_element('img', ['src'=>IMAGES_URL.'logo.png', 'class'=>'header-logo-non-sticky opacity-0', 'alt'=>'', 'height'=>'70'], false); ?>
-                            <?= create_tag_element('img', ['src'=>IMAGES_URL.'logo-min.png', 'class'=>'header-logo-sticky opacity-0', 'alt'=>'', 'height'=>'40'], false); ?>
+                            <?= create_tag_element('img', ['src'=>IMAGES_URL.'logo-alt-thumb.png', 'class'=>'header-logo-sticky opacity-0', 'alt'=>'', 'height'=>'40'], false); ?>
                             </a>
                         </div>
                     </div>

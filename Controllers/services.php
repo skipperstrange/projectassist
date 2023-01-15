@@ -1,5 +1,7 @@
 <?php
 include_once STATIC_DATA.'services.php';
+$services = $data['services']; 
+
 $headerTitle = 'Our Services';
 $headerDescription = '';
 $pageTitle = $headerTitle;

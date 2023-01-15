@@ -23,11 +23,17 @@ define("ROUTES", [
 ['url'=>'@^$@', 'nacome'=>'', 'controller'=>'index', 'view'=>'index'],
 
 //#Passing parameters through route - (?P<parameter-name>\w)
+['url'=>'@^services$@', 'name'=>'', 'controller'=>'services', 'view'=>'services'],
+['url'=>'@^services/$@', 'name'=>'', 'controller'=>'services', 'view'=>'services'],
+
+['url'=>'@^services/(?P<id>\d+)/$@', 'name'=>'', 'controller'=>'service', 'view'=>'service'],
+['url'=>'@^services/(?P<id>\d+)$@', 'name'=>'', 'controller'=>'service', 'view'=>'service'],
+
 ['url'=>'@^service$@', 'name'=>'', 'controller'=>'services', 'view'=>'services'],
 ['url'=>'@^service/$@', 'name'=>'', 'controller'=>'services', 'view'=>'services'],
 
 ['url'=>'@^service/(?P<id>\d+)/$@', 'name'=>'', 'controller'=>'service', 'view'=>'service'],
-['url'=>'@^service/(?P<id>\d+)$@', 'name'=>'', 'controller'=>'service', 'view'=>'product'],
+['url'=>'@^service/(?P<id>\d+)$@', 'name'=>'', 'controller'=>'service', 'view'=>'service'],
 //Strict for digits
 //['url'=>'@^product/(?P<id>\w+)/$@', 'name'=>'', 'controller'=>'admin', 'view'=>'admin/index'],
 
