@@ -42,7 +42,7 @@
       <section class="mb-4 bg-transparent container">
        <div class="container text-center">
         <div class="appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="950" style="animation-delay: 950ms;">
-                    <h2 class="pt-5 text-color-dark font-weight-medium "><strong>Your 360 Project Management Solution</strong></h2>
+                    <h2 class="pt-5 text-color-dark font-weight-medium "><strong>Your 360 Project Management Solution Provider</strong></h2>
         </div>
       </div> 
     </section>

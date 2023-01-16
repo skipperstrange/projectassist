@@ -99,3 +99,274 @@ body{
 .header-nav {
     font-size: 120%;
 }
+
+
+
+/****************************************************************
+Nav Stuff
+****************************************************************/
+html .nav-color-primary nav > ul > li > a {
+	color: var(--primary) !important;
+}
+
+html .nav-color-primary:not(.header-nav-main-dropdown-arrow) nav > ul > li > a:before {
+	background-color: var(--primary) !important;
+}
+
+html .nav-color-primary:not(.header-nav-main-dropdown-arrow) nav > ul > li ul {
+	border-top-color: var(--primary) !important;
+}
+
+html .nav-color-secondary nav > ul > li > a {
+	color: var(--green) !important;
+}
+
+html .nav-color-secondary:not(.header-nav-main-dropdown-arrow) nav > ul > li > a:before {
+	background-color: var(--green) !important;
+}
+
+html .nav-color-secondary:not(.header-nav-main-dropdown-arrow) nav > ul > li ul {
+	border-top-color: var(--green) !important;
+}
+
+html .nav-color-tertiary nav > ul > li > a {
+	color: #0a83df !important;
+}
+
+html .nav-color-tertiary:not(.header-nav-main-dropdown-arrow) nav > ul > li > a:before {
+	background-color: #0a83df !important;
+}
+
+html .nav-color-tertiary:not(.header-nav-main-dropdown-arrow) nav > ul > li ul {
+	border-top-color: #0a83df !important;
+}
+
+html .nav-color-quaternary nav > ul > li > a {
+	color: #e8eef3 !important;
+}
+
+html .nav-color-quaternary:not(.header-nav-main-dropdown-arrow) nav > ul > li > a:before {
+	background-color: #e8eef3 !important;
+}
+
+html .nav-color-quaternary:not(.header-nav-main-dropdown-arrow) nav > ul > li ul {
+	border-top-color: #e8eef3 !important;
+}
+
+html .nav-color-dark nav > ul > li > a {
+	color: #212529 !important;
+}
+
+html .nav-color-dark:not(.header-nav-main-dropdown-arrow) nav > ul > li > a:before {
+	background-color: #212529 !important;
+}
+
+html .nav-color-dark:not(.header-nav-main-dropdown-arrow) nav > ul > li ul {
+	border-top-color: #212529 !important;
+}
+
+html .nav-color-light nav > ul > li > a {
+	color: #FFF !important;
+}
+
+html .nav-color-light:not(.header-nav-main-dropdown-arrow) nav > ul > li > a:before {
+	background-color: #FFF !important;
+}
+
+html .nav-color-light:not(.header-nav-main-dropdown-arrow) nav > ul > li ul {
+	border-top-color: #FFF !important;
+}
+
+.nav-pills > li.active > a,
+.nav-pills .nav-link.active {
+	background-color: var(--primary);
+}
+
+.nav-pills > li.active > a:hover,
+.nav-pills .nav-link.active:hover,
+.nav-pills > li.active > a:focus,
+.nav-pills .nav-link.active:focus {
+	background-color: var(--primary);
+}
+
+.nav-active-style-1 > li > a:hover,
+.nav-active-style-1 > li > a:focus,
+.nav-active-style-1 > li > a.active {
+	border-bottom-color: var(--primary);
+}
+
+html .nav-pills-primary a {
+	color: var(--primary);
+}
+
+html .nav-pills-primary a:hover {
+	color: #35a8ff;
+}
+
+html .nav-pills-primary a:focus {
+	color: #35a8ff;
+}
+
+html .nav-pills-primary a:active {
+	color: #0192ff;
+}
+
+html .nav-pills-primary .nav-link.active,
+html .nav-pills-primary > li.active > a {
+	background-color: var(--primary);
+}
+
+html .nav-pills-primary .nav-link.active:hover,
+html .nav-pills-primary > li.active > a:hover,
+html .nav-pills-primary .nav-link.active:focus,
+html .nav-pills-primary > li.active > a:focus {
+	background-color: var(--primary);
+}
+
+html .nav-pills-secondary a {
+	color: var(--green);
+}
+
+html .nav-pills-secondary a:hover {
+	color: #46c25e;
+}
+
+html .nav-pills-secondary a:focus {
+	color: #46c25e;
+}
+
+html .nav-pills-secondary a:active {
+	color: #35a149;
+}
+
+html .nav-pills-secondary .nav-link.active,
+html .nav-pills-secondary > li.active > a {
+	background-color: var(--green);
+}
+
+html .nav-pills-secondary .nav-link.active:hover,
+html .nav-pills-secondary > li.active > a:hover,
+html .nav-pills-secondary .nav-link.active:focus,
+html .nav-pills-secondary > li.active > a:focus {
+	background-color: var(--green);
+}
+
+html .nav-pills-tertiary a {
+	color: #0a83df;
+}
+
+html .nav-pills-tertiary a:hover {
+	color: #0e91f4;
+}
+
+html .nav-pills-tertiary a:focus {
+	color: #0e91f4;
+}
+
+html .nav-pills-tertiary a:active {
+	color: #0975c7;
+}
+
+html .nav-pills-tertiary .nav-link.active,
+html .nav-pills-tertiary > li.active > a {
+	background-color: #0a83df;
+}
+
+html .nav-pills-tertiary .nav-link.active:hover,
+html .nav-pills-tertiary > li.active > a:hover,
+html .nav-pills-tertiary .nav-link.active:focus,
+html .nav-pills-tertiary > li.active > a:focus {
+	background-color: #0a83df;
+}
+
+html .nav-pills-quaternary a {
+	color: #e8eef3;
+}
+
+html .nav-pills-quaternary a:hover {
+	color: #f9fafc;
+}
+
+html .nav-pills-quaternary a:focus {
+	color: #f9fafc;
+}
+
+html .nav-pills-quaternary a:active {
+	color: #d7e2ea;
+}
+
+html .nav-pills-quaternary .nav-link.active,
+html .nav-pills-quaternary > li.active > a {
+	background-color: #e8eef3;
+}
+
+html .nav-pills-quaternary .nav-link.active:hover,
+html .nav-pills-quaternary > li.active > a:hover,
+html .nav-pills-quaternary .nav-link.active:focus,
+html .nav-pills-quaternary > li.active > a:focus {
+	background-color: #e8eef3;
+}
+
+html .nav-pills-dark a {
+	color: #212529;
+}
+
+html .nav-pills-dark a:hover {
+	color: #2c3237;
+}
+
+html .nav-pills-dark a:focus {
+	color: #2c3237;
+}
+
+html .nav-pills-dark a:active {
+	color: #16181b;
+}
+
+html .nav-pills-dark .nav-link.active,
+html .nav-pills-dark > li.active > a {
+	background-color: #212529;
+}
+
+html .nav-pills-dark .nav-link.active:hover,
+html .nav-pills-dark > li.active > a:hover,
+html .nav-pills-dark .nav-link.active:focus,
+html .nav-pills-dark > li.active > a:focus {
+	background-color: #212529;
+}
+
+html .nav-pills-light a {
+	color: #FFF;
+}
+
+html .nav-pills-light a:hover {
+	color: #ffffff;
+}
+
+html .nav-pills-light a:focus {
+	color: #ffffff;
+}
+
+html .nav-pills-light a:active {
+	color: #f2f2f2;
+}
+
+html .nav-pills-light .nav-link.active,
+html .nav-pills-light > li.active > a {
+	background-color: #FFF;
+}
+
+html .nav-pills-light .nav-link.active:hover,
+html .nav-pills-light > li.active > a:hover,
+html .nav-pills-light .nav-link.active:focus,
+html .nav-pills-light > li.active > a:focus {
+	background-color: #FFF;
+}
+
+.section-scroll-dots-navigation.scroll-dots-navigation-colored > ul > li > a:before {
+	background: var(--primary);
+}
+
+.sort-source-wrapper .nav > li.active > a {
+	color: var(--primary);
+}

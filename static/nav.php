@@ -4,7 +4,7 @@ $navLinks = [
     'home'=>['href'=>  WEB_URL],
     'about_us' => ['href'=>_link('about')],
     'services' => ['href'=>_link('service')],
-    'clients_&_sectors' => ['href'=>_link('clients')],
+    'clients' => ['href'=>_link('portfolio')],
     'contact' => ['href'=>_link('contact')],
     
 ];

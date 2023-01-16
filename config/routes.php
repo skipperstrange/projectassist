@@ -20,12 +20,16 @@ define("ROUTES", [
 ['url'=>'@^contact\/$@', 'name'=>'contact', 'controller'=>'contact', 'view'=>'contact'],
 
 //# controller:aztrasC view:index
-['url'=>'@^$@', 'nacome'=>'', 'controller'=>'index', 'view'=>'index'],
+['url'=>'@^$@', 'home'=>'', 'controller'=>'index', 'view'=>'index'],
+
+['url'=>'@^portfolio$@', 'name'=>'', 'controller'=>'portfolio', 'view'=>'portfolio'],
+['url'=>'@^portfolio/$@', 'name'=>'', 'controller'=>'portfolio', 'view'=>'portfolio'],
 
 //#Passing parameters through route - (?P<parameter-name>\w)
 ['url'=>'@^services$@', 'name'=>'', 'controller'=>'services', 'view'=>'services'],
 ['url'=>'@^services/$@', 'name'=>'', 'controller'=>'services', 'view'=>'services'],
 
+//#Passing parameters through route - (?P<parameter-name>\w)
 ['url'=>'@^services/(?P<id>\d+)/$@', 'name'=>'', 'controller'=>'service', 'view'=>'service'],
 ['url'=>'@^services/(?P<id>\d+)$@', 'name'=>'', 'controller'=>'service', 'view'=>'service'],
 
