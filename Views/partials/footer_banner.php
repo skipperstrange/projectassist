@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-md-8 col-lg-7">
             <div class="call-to-action-content text-left">
-                <h2 class="font-weight-normal title text-8 mb-0 text-color-light"><strong class="font-weight-extra-bold">Have a project? Let’s talk</strong>!</h2>
+                <h2 class="font-weight-normal title text-8 mb-0 text-color-light"><strong class="font-weight-extra-bold">Have a project? Let’s talk</strong></h2>
                 <p class="mb-0 text-color-light">Speak with a member of our team and find out how we can help your organisation. Speak with a member of our team and find out how we can help your organisation. </p>
             </div>
         </div>

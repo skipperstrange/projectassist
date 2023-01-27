@@ -19,8 +19,24 @@
         </div>
     </div>
 </section>
+<section class="mb-4 bg-transparent container">
+       <div class="container text-center">
+        <div class="appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="950" style="animation-delay: 950ms;">
+                    <h2 class="pt-5 text-color-dark font-weight-medium "><strong>Your 360 Project Management Solution Provider</strong></h2>
+        </div>
+      </div> 
+    </section>
+<section id="partners" class="mb-4 bg-transparent container">
+        <?php include PARTIALS.'partners.php'; ?>
+</section>
 
-<section class="mb-4 bg-transparent container py-4">
+
+<!-- Picture blocks -->
+<?php include PARTIALS.'traits.php'; ?>
+
+<!-- End Pictures Blocks -->
+
+      <section class="mb-4 bg-transparent container py-4">
        <div class="container text-center">
         <div class="col-lg-12 mb-4 appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="950" style="animation-delay: 950ms;">
             <h2 class="pt-5 text-color-dark font-weight-medium "><strong>Why Project Assist Global</strong></h2>
@@ -34,18 +50,5 @@
       </div> 
 </section>
 
-<!-- Picture blocks -->
+     
 
-<!-- End Pictures Blocks -->
-      <?php include PARTIALS.'traits.php'; ?>
-
-      <section class="mb-4 bg-transparent container">
-       <div class="container text-center">
-        <div class="appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="950" style="animation-delay: 950ms;">
-                    <h2 class="pt-5 text-color-dark font-weight-medium "><strong>Your 360 Project Management Solution Provider</strong></h2>
-        </div>
-      </div> 
-    </section>
-<section id="partners" class="mb-4 bg-transparent container">
-        <?php include PARTIALS.'partners.php'; ?>
-</section>

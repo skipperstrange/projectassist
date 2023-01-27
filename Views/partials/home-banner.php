@@ -13,11 +13,11 @@
                 <div class="container py-1">
                     <div class="row align-items-center " style="margin-top:9rem;">
                         <div class="col-lg-6 mb-5">
-                            <h3 class="text-primary font-weight-bold mb-1 text-5 appear-animation text-secondary" data-appear-animation="fadeInUpShorter" data-appear-animation-duration="750">Welcome to project assist</h3>
+                            <!--h3 class="text-primary font-weight-bold mb-1 text-5 appear-animation text-secondary" data-appear-animation="fadeInUpShorter" data-appear-animation-duration="750">Welcome to project assist</h3-->
                             <h1 class="font-weight-bold text-11 title line-height-2 mb-3 appear-animation text-light text-uppercase" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400" data-appear-animation-duration="750">
                                 Planning. Assisting. Guiding. Leading
                             </h1>
-                            <p class="text-6 text-capitalize appear-animation text-color-light" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900" data-appear-animation-duration="750">Your Tusted Project And Programme Management Partner</p>
+                            <p class="text-6 text-capitalize appear-animation text-color-light" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900" data-appear-animation-duration="750">Your Trusted Project And Programme Management Partner</p>
                             <a href="<?=_link('contact')?>" class="btn btn-light shadow-1 text-uppercase btn-rounded border-0 font-weight-bold text-4 btn-px-5 px-5 py-2 appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="100" style="animation-delay: 100ms;">
                              Contact Us
                             </a>

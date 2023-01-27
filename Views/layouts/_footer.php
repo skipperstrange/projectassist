@@ -46,7 +46,7 @@
 						<div class="row py-4">
 
 							<div class="col-sm-12 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
-								<p><?=CLIENT_NAME?> © Copyright 2020. All Rights Reserved.</p>
+								<p><?=CLIENT_NAME?> © Copyright 2023. All Rights Reserved.</p>
 							</div>
 							
 						</div>

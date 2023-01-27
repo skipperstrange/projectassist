@@ -16,7 +16,7 @@ $buttonLinks = [
 //Social media Links - top of navbar
 $data['socialMediaLinks'] = [
     ['href'=>LINKEDIN, 'icon'=>'fab fa-linkedin', 'title'=>'linkedin'],
-    ['href'=>FACEBOOK, 'icon'=>'fab fa-facebook', 'title'=>'facebook'],
-    ['href'=>INSTAGRAM, 'icon'=>'fab fa-instagram', 'title'=>'instagram'],
-    ['href'=>TWITTER, 'icon'=>'fab fa-twitter', 'title'=>'twitter'],
+   // ['href'=>FACEBOOK, 'icon'=>'fab fa-facebook', 'title'=>'facebook'],
+    //['href'=>INSTAGRAM, 'icon'=>'fab fa-instagram', 'title'=>'instagram'],
+    //['href'=>TWITTER, 'icon'=>'fab fa-twitter', 'title'=>'twitter'],
 ];
