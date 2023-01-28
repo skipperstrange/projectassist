@@ -28,14 +28,15 @@ include_once PARTIALS.'sub_header.php';
 
             <div class="appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="800" style="animation-delay: 800ms;">
                 <ul class="list list-icons list-icons-style-2 mt-2">
-                    <li><i class="fas fa-map-marker-alt top-6"></i>  25 Independence Avenue, Ridge-Accra</li>
+                    <li><i class="fas fa-map-marker-alt top-6"></i> <?= STREET_ADDRESS ?></li>
                 </ul>
             </div>
             </div>
             <div class="col-lg-4">
             <div class="appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="950" style="animation-delay: 950ms;">
             <ul class="list list-icons list-icons-style-2 mt-2">
-            <li><i class="fas fa-envelope top-6"></i> <a href="mailto:vacmails@vanguardassurance.com">vacmails@vanguardassurance.com</a></li>
+            <!--li><i class="fas fa-envelope top-6"></i> <a href="mailto:<?=SUPPORT_EMAIL?>"><?=SUPPORT_EMAIL?></a></li-->
+            <li><i class="fas fa-envelope top-6"></i> <?=ADDRESS?></li>
             </ul>
             </div>
             </div>
