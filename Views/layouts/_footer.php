@@ -1,6 +1,8 @@
-<?php include PARTIALS.'footer_banner.php'; ?>
-
-
+<?php 
+include PARTIALS.'footer_banner.php'; 
+include_once STATIC_DATA.'services.php';
+$services = $data['services']; 
+?>
 <footer id="footer" class="mt-0">
 				<div class="container">
 					<!--div class="footer-ribbon">
@@ -36,8 +38,14 @@
 							</ul>
 						</div>
 						<div class="col-lg-3 pt-3">
-							<h5 class="text-3 mb-3 pb-1"></h5>
-							
+							<h5 class="text-3 mb-3 pb-1">Our Services</h5>
+							<ul class="list list-icons list-icons-sm">
+								<?php 
+								foreach($services as $index => $service):?>
+								<li><i class="fas fa-angle-right"></i><a href="<?= _link('services&id='.$index)?>" class="link-hover-style-1 ml-1"> <?=ucfirst(format_string($service['title'])) ?></a></li>
+								<?php
+								endforeach; ?>
+							</ul>
 						</div>
 					</div>
 				</div>
