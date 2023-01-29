@@ -1,6 +1,6 @@
 <?php
 
-define('CLIENT_NAME', 'Project Assist Globall');
+define('CLIENT_NAME', 'Project Assist Global');
 define('WEBSITE', '');
 define('SLOGAN', '');
 define('ADDRESS', 'P. O. Box CO 3530, Tema');

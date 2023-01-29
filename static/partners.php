@@ -29,5 +29,10 @@
         'name'=>'step_5',
         'title'=>'Step 5',
         'logo'=>IMAGES_URL.'step_logo.png'
+    ],
+    [
+        'name'=>'fidelity',
+        'title'=>'Fidelity Bank',
+        'logo'=>IMAGES_URL.'fidelity.png'
     ]
 ];

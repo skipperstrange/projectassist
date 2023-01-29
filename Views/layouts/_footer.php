@@ -12,7 +12,7 @@ $services = $data['services'];
 						<div class="col-md-7 col-lg-5 mb-5 mb-lg-0 pt-3">
 							<h5 class="text-3 mb-3">ABOUT US</h5>
 							<p>Project Assist is a firm which partners with private and public 
-							sector organisations to successfully deliver complex programmes. We employ dynamic.
+							sector organisations to successfully deliver complex programmes.
 						</p>
 						<ul class="social-icons mt-4">
 								<?php            
