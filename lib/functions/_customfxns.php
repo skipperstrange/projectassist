@@ -45,12 +45,12 @@ function generateNavigation($navArray){
             else{
                 $linkLabel = $label;
             }
-           $navLinks.= "class='dropdown-item  text-light dropdown-toggle'>". format_string($linkLabel) ."</a>";
+           $navLinks.= "class='dropdown-item text-light dropdown-toggle'>". format_string($linkLabel) ."</a>";
            $navLinks .= "<ul class='dropdown-menu'>";
 
            foreach($navArray[$label]['children'] as $label => $link){
             $navLinks .= ' <li>
-            <a href="'.$link['href'].'" class="dropdown-item head-menu-item"  target='.$link['target'].'>'. format_string($label) .'</a>
+            <a href="'.$link['href'].'" class="dropdown-item text-secondary head-menu-item"  target='.$link['target'].'>'. format_string($label) .'</a>
             </li>
             ';
             }
@@ -62,9 +62,9 @@ function generateNavigation($navArray){
         }else{
             $navLinks .= "<li class='dropdown'>";
             if(isset($link['target'])){
-                $navLinks .= " <a class='dropdown-item text-light' href='$link[href]' target='$link[target]'  style='font-size:105%;'>";
+                $navLinks .= " <a class='dropdown-item text-secondary' href='$link[href]' target='$link[target]'  style='font-size:105%;'>";
             }else{
-                $navLinks .= " <a class='dropdown-item  text-light head-menu-item' href='$link[href]' target='$link[target]'  style='font-size:105%;'>";
+                $navLinks .= " <a class='dropdown-item  text-secondary head-menu-item' href='$link[href]' target='$link[target]'  style='font-size:105%;'>";
             }
             $navLinks .= format_string($label) ."
             </a>
