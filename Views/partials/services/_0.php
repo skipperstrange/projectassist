@@ -1,5 +1,5 @@
 <div class="text-3 col-12">
-We believe effective project and programme management is key to realizing the goal of a change initiative. Without a defined approach, your business risks losing part or all of the planned business benefits as well as your return on  investment.
+We believe effective programme and project management is key to realizing the goal of a change initiative. Without a defined approach, your business risks losing part or all of the planned business benefits as well as your return on  investment.
 </div>
 
 <div class="mt-4">

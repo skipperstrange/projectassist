@@ -33,7 +33,7 @@ $captions = $data['about_traits'];
                 <div class="col-half-section mb-0 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400" style="animation-delay: 400ms;">
                     <h3 class="text-5 text-primary"><strong>Simulate business change</strong></h3>
                     <p>
-                    In a rapidly evolving, highly competitive global market your business must be able to respond to change quickly and effectively. Flexibility and agility are no longer differentiators, to remain at the top of your field your business must take ownership to lead the change – Project Assist has the skills, expertise and experience to help.
+                    In a rapidly evolving, highly competitive global market your business must be able to respond to change quickly and effectively. Flexibility and agility are no longer differentiators, to remain at the top of your game, your business must take ownership to lead the change – Project Assist has the skills, expertise and experience to help.
                     </p>
                     </div>
             </div>

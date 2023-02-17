@@ -1,8 +1,8 @@
 <?php
 
 $data['upraise_note'] = "Our capabilities and services compliment all phases of the project delivery lifecycle, from the initial planning phase through to the delivery of leading business practices and technology functions.";
-$data['brief_history'] = "Since 1998, we have worked in partnership with a number of global and niche organisations to achieve sustainable and measurable business benefits. Our founding values are rigidly deployed on every assignment, as experts and industry leaders in planning, we provide practical project and programme management solutions for our clients, increasing agility, performance and driving efficiencies throughout organisations.";
-$data['mission'] = 'Since 1998, we have worked in partnership with a number of global and niche organisations to achieve sustainable and measurable business benefits. Our founding values are rigidly deployed on every assignment, as experts and industry leaders in planning, we provide practical project and programme management solutions for our clients, increasing agility, performance and driving efficiencies throughout organisations.';
+$data['brief_history'] = "Since 1998, we have worked in partnership with a number of global and niche organisations to achieve sustainable and measurable business benefits. Our founding values are rigidly deployed on every assignment, as experts and industry leaders in planning, we provide practical programme and project management solutions for our clients, increasing agility, performance and driving efficiencies throughout organisations.";
+$data['mission'] = 'Since 1998, we have worked in partnership with a number of global and niche organisations to achieve sustainable and measurable business benefits. Our founding values are rigidly deployed on every assignment, as experts and industry leaders in planning, we provide practical programme and project management solutions for our clients, increasing agility, performance and driving efficiencies throughout organisations.';
 $data['about_traits'] = [
     [
         'title'=>'Hands on',
@@ -23,12 +23,12 @@ $data['about_traits'] = [
     [
         'title'=>'Quality assured',
         'icon'=>IMAGES_URL.'value.png',
-        'description'=>'We set-up programmes for success whilst building skills within your organisation'
+        'description'=>'Programmes for success whilst building skills within your organisation'
     ],
     [
-        'title'=>'Longterm deployment',
+        'title'=>'Long-term deployment',
         'icon'=>IMAGES_URL.'startup.png',
-        'description'=>'We go the last mile to ensure a robust, cost-effective and future-proofed solution.'
+        'description'=>'We go the last mile to ensure a robust, cost-effective and future-proof solution.'
     ]
 ];
 
