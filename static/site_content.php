@@ -62,7 +62,7 @@ $data['traits'] = [
         'description'=>'We help companies navigate transformative change. For some, this means crafting targeted strategies to support a new operating model or large-scale technology investment. For others, it means mapping out a post-merger plan, or executing programs to enhance the end user experience.',
     ],
     [
-        'title'=>'Merger & Acquistion Integration ',
+        'title'=>'Merger & Acquisition Integration ',
         'icon'=>IMAGES_URL.'merger_and_aquisition_integration1.jpg',
         'description'=>'Our capabilities and services complement all phases of the project delivery lifecycle, from the initial planning phase through to the delivery of leading business practices and technology functions.',
     ]
