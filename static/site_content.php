@@ -64,6 +64,6 @@ $data['traits'] = [
     [
         'title'=>'Merger & Acquisition Integration ',
         'icon'=>IMAGES_URL.'merger_and_aquisition_integration1.jpg',
-        'description'=>'Our capabilities and services complement all phases of the project delivery lifecycle, from the initial planning phase through to the delivery of leading business practices and technology functions.',
+        'description'=>'Our capabilities and services compliment all phases of the project delivery lifecycle, from the initial planning phase through to the delivery of leading business practices and technology functions.',
     ]
 ];

@@ -54,7 +54,7 @@ at Krajee JQuery plugins.
 
 ### New features/changes since release v4.0
 
-- **BC Breaking Change**: The `symbol`, `glyphicon`, `ratingClass` properties have been removed. The functionality is replaced with the `theme` property (and can also be complemented or implemented separately using the `containerClass` property).
+- **BC Breaking Change**: The `symbol`, `glyphicon`, `ratingClass` properties have been removed. The functionality is replaced with the `theme` property (and can also be complimented or implemented separately using the `containerClass` property).
 - New property `theme` will assign a CSS class with the `rating-<theme-name>` to the rating container.
     - Themes included
         - The default (blank) theme (for displaying bootstrap glyphicons)
