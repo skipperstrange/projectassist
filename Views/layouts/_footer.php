@@ -42,7 +42,7 @@ $services = $data['services'];
 							<ul class="list list-icons list-icons-sm">
 								<?php 
 								foreach($services as $index => $service):?>
-								<li><i class="fas fa-angle-right"></i><a href="<?= _link('services&id='.$index)?>" class="link-hover-style-1 ml-1 text-capitalize"> <?=ucfirst(format_string($service['title'])) ?></a></li>
+								<li><i class="fas fa-angle-right"></i><a href="<?= _link('services&id='.$index)?>" class="link-hover-style-1 ml-1 text-capitalize"> <?=ucfirst($service['title']) ?></a></li>
 								<?php
 								endforeach; ?>
 							</ul>
