@@ -12,7 +12,7 @@ $data['services']=[
         'description'=>'We help companies navigate transformative change. For some, this means crafting targeted strategies to support a new operating model or large-scale technology investment. For others, it means mapping out a post-merger plan, or executing programs to enhance the end user experience.',
     ],
     [
-        'title'=>'Acquisitions Integration',
+        'title'=>'Mergers and Acquisitions Integration',
         'icon'=>IMAGES_URL.'service_mergers_&_aquisition.png',
         'description'=>'Our capabilities and services compliment all phases of the project delivery lifecycle, from the initial planning phase through to the delivery of leading business practices and technology functions.',
     ],

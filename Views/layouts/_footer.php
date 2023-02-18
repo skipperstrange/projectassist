@@ -19,7 +19,7 @@ $services = $data['services'];
 									foreach ($data['socialMediaLinks'] as $socialMediaLink) {
 
                                     ?>
-                                    <li class="social-icons-<?= $socialMediaLink['title']?>"><a href="<?= $socialMediaLink['href'] ?>" target="_blank" title="<?= format_string($socialMediaLink['title']) ?>"><i class="<?= $socialMediaLink['icon']?>"></i></a></li>
+                                    <li class="social-icons-<?= $socialMediaLink['title']?>"><a href="<?= $socialMediaLink['href'];?>" target="_blank" title="<?= format_string($socialMediaLink['title']) ?>"><i class="<?= $socialMediaLink['icon']?> text-10"></i></a></li>
                                     <?php
                                     }
                                     ?>
