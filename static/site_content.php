@@ -1,8 +1,8 @@
 <?php
 
 $data['upraise_note'] = "Our capabilities and services compliment all phases of the project delivery lifecycle, from the initial planning phase through to the delivery of leading business practices and technology functions.";
-$data['brief_history'] = "Since 1998, we have worked in partnership with a number of global and niche organisations to achieve sustainable and measurable business benefits. Our founding values are rigidly deployed on every assignment, as experts and industry leaders in planning, we provide practical programme and project management solutions for our clients, increasing agility, performance and driving efficiencies throughout organisations.";
-$data['mission'] = 'Since 1998, we have worked in partnership with a number of global and niche organisations to achieve sustainable and measurable business benefits. Our founding values are rigidly deployed on every assignment, as experts and industry leaders in planning, we provide practical programme and project management solutions for our clients, increasing agility, performance and driving efficiencies throughout organisations.';
+$data['brief_history'] = "Since 1998, we have worked in partnership with a number of global and niche organisations to achieve sustainable and measurable business benefits. Our founding values are rigidly deployed on every assignment, as experts and industry leaders in planning and delivery, we provide practical programme and project management solutions for our clients, increasing agility, performance and driving efficiencies throughout organisations.";
+$data['mission'] = 'Since 1998, we have worked in partnership with a number of global and niche organisations to achieve sustainable and measurable business benefits. Our founding values are rigidly deployed on every assignment, as experts and industry leaders in planning, we provide practical Programme and Project Management solutions for our clients, increasing agility, performance and driving efficiencies throughout organisations.';
 $data['about_traits'] = [
     [
         'title'=>'Hands on',
@@ -23,7 +23,7 @@ $data['about_traits'] = [
     [
         'title'=>'Quality assured',
         'icon'=>IMAGES_URL.'value.png',
-        'description'=>'Programmes for success whilst building skills within your organisation'
+        'description'=>'We setup Programmes for success whilst building skills within your organisation'
     ],
     [
         'title'=>'Long-term deployment',
@@ -62,7 +62,7 @@ $data['traits'] = [
         'description'=>'We help companies navigate transformative change. For some, this means crafting targeted strategies to support a new operating model or large-scale technology investment. For others, it means mapping out a post-merger plan, or executing programs to enhance the end user experience.',
     ],
     [
-        'title'=>'Merger & Acquisition Integration ',
+        'title'=>'Mergers & Acquisitions Integration ',
         'icon'=>IMAGES_URL.'merger_and_aquisition_integration1.jpg',
         'description'=>'Our capabilities and services compliment all phases of the project delivery lifecycle, from the initial planning phase through to the delivery of leading business practices and technology functions.',
     ]

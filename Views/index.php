@@ -45,7 +45,7 @@
                 <img src="<?=IMAGES_URL.'quote.png'?>" alt="Quote" srcset="<?=IMAGES_URL.'quote.png'?>">
        </div>
        <div class="col-lg-12 mb-4 appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="950" style="animation-delay: 950ms;">
-                <p class="text-4">We are experts and industry leaders in planning, scheduling and delivery of small to large scale multi million dollar programmes. With a proven track record of success we provide practical project and programme management solutions for our clients, increasing agility, performance and driving efficiencies throughout organisations.</p>
+                <p class="text-4">We are experts and industry leaders in planning, scheduling and delivery of small to large scale multi million dollar programmes. With a proven track record of success we provide practical Programme and Project Management solutions for our clients, increasing agility, performance and driving efficiencies throughout organisations.</p>
        </div>
       </div> 
 </section>
