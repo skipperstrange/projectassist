@@ -7,7 +7,7 @@ include_once PARTIALS.'sub_header.php';
         <div class="col-lg-12">
             <h4 class="pt-5"><strong>Contact Us</strong></h4>
             <p class="mb-4 text-4">
-                What ever your needs, our agents are ever ready and available for you. Just Give us a call or send us a message!
+                Our team is ready to assist, get in touch today.
             </p>
 
         </div>        
