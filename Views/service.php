@@ -8,7 +8,11 @@ include_once PARTIALS.'sub_header.php';
 <?php
 if(file_exists($service_info_file)){
     include $service_info_file;
-}else{
+}
+elseif($service_info['home_redirect'] === true){
+    redirect_to('','');
+}
+else{
     echo "<div class=\"mt-4 col-12\"><h1>Service Information Unavailable</h1></div>";
 }
 ?>

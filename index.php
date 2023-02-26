@@ -1,5 +1,5 @@
 <?php
-
+ob_start();
 if (!defined('DS')) {
     define('DS', '/');
   }
@@ -84,3 +84,4 @@ if(file_exists(CONTROLLERS.$controller.'.php')){
 }
 
 include_once VIEWS.'layouts'.DS.'layout.php';
+ob_end_flush();

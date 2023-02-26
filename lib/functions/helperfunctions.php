@@ -62,7 +62,8 @@ function _link_by_name($name, $args=[]){
 function redirect_to($controller = null, $view = null)
 {
     $url = _link($controller, $view);
-    header('location:' . $url);
+    echo $url;
+    header('Location:' . $url);
     exit();
 }
 
