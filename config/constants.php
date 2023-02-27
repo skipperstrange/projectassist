@@ -42,7 +42,10 @@ define('BASE_URL', @$_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST'].DS);
 if(MODE === 'development'){
     define('WEB_URL', @$_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['SERVER_NAME'].DS.APP.PORT.DS);
 }else{
-    define('WEB_URL', @$_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['SERVER_NAME'].PORT.DS);
+    //Dev moode
+    define('WEB_URL', @$_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['SERVER_NAME'].DS.APP.PORT.DS);
+    //True production mode
+  //  define('WEB_URL', @$_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['SERVER_NAME'].PORT.DS);
 }
 //endif;
 
