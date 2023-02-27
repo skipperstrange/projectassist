@@ -64,7 +64,7 @@ function generateNavigation($navArray){
             if(isset($link['target'])){
                 $navLinks .= " <a class='dropdown-item text-secondary' href='$link[href]' target='$link[target]'  style='font-size:105%;'>";
             }else{
-                $navLinks .= " <a class='dropdown-item  text-secondary head-menu-item' href='$link[href]' target='@$link[target]'  style='font-size:105%;'>";
+                $navLinks .= " <a class='dropdown-item  text-secondary head-menu-item' href='$link[href]' target='$link[target]'  style='font-size:105%;'>";
             }
             $navLinks .= format_string($label) ."
             </a>
